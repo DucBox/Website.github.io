@@ -10,6 +10,7 @@
 	height: 100hv;
 	position: relative;
 	font-family: 'Roboto' , san-serif;
+	display: flex;
 }
 
 .a_container video {
@@ -43,11 +44,12 @@
 	background-position: center;
 	padding: 0 8%;
 	position: relative;
+	display: flex;
 }
 
 
 nav {
-	display: flex;
+	display: block;
 	width: 100%;
 	align-items: center;
 	flex-wrap: wrap;
@@ -58,8 +60,6 @@ nav ul{
 	flex: 1;
 	text-align: right;
 	padding-right: 30px;
-	/*position: fixed;
-  	top: 0;*/
 }
 
 nav ul li{
@@ -225,6 +225,7 @@ h2:hover {
 #header{
 	background: rgba(0,0,100,0.4);
 	height: 100vh;
+	display: flex;
 }
 
 .video-background{
