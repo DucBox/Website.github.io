@@ -32,6 +32,9 @@
 		</nav>
 
 		<div class = "text-box">
+			<h1> &ensp;
+			<img id = "icon" src = "icon.png">
+			</h1>
 			<p> 
 				WE ARE 
 			</p>
@@ -53,6 +56,25 @@
 		</div>
 	
 	</div>	
+
+<audio id = "mySong">
+		<source src = "song.mp3" type ="audio/mp3">
+</audio>
+
+<script>
+	var mySong = document.getElementById("mySong");
+	var icon = document.getElementById("icon");
+
+	icon.onclick = function(){
+		if(mySong.paused){
+			mySong.play();
+			icon.src = "pause.png"
+		}else {
+			mySong.pause();
+			icon.src = "play.png"
+		}
+	}
+</script>
 
 </body>
 

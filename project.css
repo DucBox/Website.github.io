@@ -90,6 +90,11 @@ nav ul li a:hover::after{
 	width: 50%;
 }
 
+#icon{
+	width: 50px;
+	background: white;
+}
+
 .text-box{
 	color: #fff;
 	position: absolute;
