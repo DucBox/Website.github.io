@@ -7,6 +7,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel = "stylesheet" href = "project.css">
+	<link rel = "stylesheet" href = "jquery.flipster.min.css">
 	<title> WEBSITE </title>
 </head>
 
@@ -26,7 +27,7 @@
 		<nav>
 			<ul>
 				<li> <a href =""> Home </a></li>
-				<li> <a href =""> About </a></li>
+				<li> <a href ="#header"> About </a></li>
 				<li> <a href =""> Contact </a></li>
 			</ul>
 		</nav>
@@ -57,6 +58,38 @@
 	
 	</div>	
 
+	<div id = "header">
+	 	<video autoplay loop class="video-background" muted plays-inline>
+	 		<source src = "Free Background, SWEET DREAMS COLOUR FULL , GRAPHICS, ANIMATED BACKGROUND, FREE DOWNLODE, HD.mp4" type = "video/mp4">
+	 	</video>
+
+		<h2>  <br> OUR PHOTO SET <div class = "underline" ><span></span></div></h2>
+		<div class = "hero">
+			<div class = "carousel">
+				<ul> 
+					<li> <img src ="t3.png"></li>
+					<li> <img src ="t2.png"></li>
+					<li> <img src ="team1.png"></li>
+					<li> <img src ="t4.png"></li>
+					<li> <img src ="t5.png"></li>
+					<li> <img src ="t6.png"></li>
+					<li> <img src ="t10.png"></li>
+					<li> <img src ="t8.png"></li>
+					<li> <img src ="t7.png"></li>
+					<li> <img src ="t11.png"></li>
+					<li> <img src ="t12.png"></li>
+					<li> <img src ="t14.png"></li>
+					<li> <img src ="t21.png"></li>
+					<li> <img src ="t15.png"></li>
+					<li> <img src ="t16.png"></li>
+					<li> <img src ="mt16.png"></li>
+					<li> <img src ="mt17.png"></li> 
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
 <audio id = "mySong">
 		<source src = "song.mp3" type ="audio/mp3">
 </audio>
@@ -74,6 +107,15 @@
 			icon.src = "play.png"
 		}
 	}
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+<script src = "jquery.flipster.min.js"> </script>
+
+<script>
+    $('.carousel').flipster({
+    	style: 'carousel',
+    	spacing: -0.3,
+    });
 </script>
 
 </body>

@@ -58,6 +58,8 @@ nav ul{
 	flex: 1;
 	text-align: right;
 	padding-right: 30px;
+	/*position: fixed;
+  	top: 0;*/
 }
 
 nav ul li{
@@ -71,6 +73,7 @@ nav ul li a{
 	text-decoration: none;
 	font-family: 'poppins',sans-serif;
 	position: relative;
+	font-size: 20px;
 }
 
 nav ul li a::after{
@@ -158,4 +161,101 @@ nav ul li a:hover::after{
 .social-icons img{
 	width: 40px;
 	margin: 25px 5px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	position: relative;
+	z-index: +1;
+	-webkit-box-sizing: border-box;  
+	-moz-box-sizing: border-box;  
+	box-sizing: border-box;  
+	padding: 0px;  
+	border: none;  
+	font: normal 60px/normal "Dynalight", Helvetica, sans-serif;  
+	color: rgba(255,255,255,1);  
+	text-decoration: normal;  
+	text-align: center;  
+	-o-text-overflow: clip;  
+	text-overflow: clip;  
+	/*white-space: pre; */ 
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;  
+	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);  
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+h2:hover {  
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+.underline {
+	width: 100%;
+	height: 8px;
+	background: #767676;
+	border-radius: 5px;
+	position: absolute;
+	top: 200px;
+	left: 0 ;
+}
+
+.underline span{
+	width: 50px;
+	height: 100%;
+	background: #fff;
+	border-radius: 5px;
+	position: absolute;
+	top: 0px;
+	left: 40px ;
+	animation: moving 6s linear infinite;
+}
+
+@keyframes moving {
+	0%{
+		left :-20px;
+	}
+	100%{
+		left: 100%;
+	}
+}
+
+#header{
+	background: rgba(0,0,100,0.4);
+	height: 100vh;
+}
+
+.video-background{
+	position: absolute;
+	right: 0;
+	bottom::0;
+	min-width: 100% ;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+
+}
+
+.hero{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.hero .carousel {
+	width: 300px;
+	margin: 100px auto 0;
+	overflow: visible;
+}
+
+#icon{
+	width: 50px;
+	background: white;
+}
+
+.carousel img {
+	-webkit-box-reflect: below 10px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+
 }
