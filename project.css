@@ -198,7 +198,7 @@ h2:hover {
 	background: #767676;
 	border-radius: 5px;
 	position: absolute;
-	top: 150px;
+	top: 180px;
 	left: 0 ;
 }
 
@@ -227,7 +227,7 @@ h2:hover {
 	height: 100vh;
 }
 
-.infor {
+p {
 	z-index: +1;
 	text-align: center;
 	position: relative;
@@ -237,9 +237,8 @@ h2:hover {
 	padding: 0px;  
 	border: none;  
 	font: normal 20px/normal "Dynalight", Helvetica, sans-serif;  
-	color: rgba(255,255,255,1);  
-	text-decoration: normal;  
-	text-align: center;  
+	color: white;  
+	text-decoration: normal;    
 	-o-text-overflow: clip;  
 	text-overflow: clip;  
 	/*white-space: pre; */ 
